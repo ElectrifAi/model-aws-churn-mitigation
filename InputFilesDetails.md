@@ -1,18 +1,18 @@
 ## Input
 Supported content types:  text/csv
 
-##Input Details:
-##Input: More than 5 comma separated csv (depending on how many service usage provided)
+## Input Details:
+## Input: More than 5 comma separated csv (depending on how many service usage provided)
 
-##Details for each csv file:
+## Details for each csv file:
 
-###scoring_date.csv (required)
+### scoring_date.csv (required)
 
 Required columns:
 
 scoring_date: scoring date for caculating signals and generate master table, format 'YYYY-MM-DD', eg: '2020-08-01'
 
-###profile.csv (required)
+### profile.csv (required)
 
 Required columns:
 
@@ -24,7 +24,7 @@ num_past_churn: number of churn happened to this account in history
 churn_ind: churn indicator
 
 
-###bill_records.csv (required)
+### bill_records.csv (required)
 
 Required columns: 
 
@@ -33,7 +33,7 @@ accountID: Contact's accountID
 bill_date: Date of the bill, format: 'YYYY-MM-DD' eg: '2018-07-07'
 balance: balance of the bill
  
-###payment_records.csv (required)
+### payment_records.csv (required)
 
 Required columns: 
  
@@ -44,7 +44,7 @@ amount: amout of payment
 is_auto_pay: whether the payment is a autopay, 1 for yes, 0 for no
 is_late: whether the payment is late, 1 for yes, 0 for no
 
-###service1_usage_records.csv (required)**
+### service1_usage_records.csv (required)**
 
 Required columns:
 
@@ -54,7 +54,7 @@ record_time: Date of the service usage record of the contact, format: 'YYYY-MM-D
 amount: usage amout of service
 ** service1 means the primary service provided to customer
 
-###serviceN_usage_records.csv (optional, N=2,3,4,5...**)
+### serviceN_usage_records.csv (optional, N=2,3,4,5...**)
 
 Required columns:
 
@@ -64,7 +64,7 @@ record_time: Date of the service usage record of the contact, format: 'YYYY-MM-D
 amount: usage amout of service
 **N=2,3,4,5,6,7...., can add any number of service usage table, follow the same schema of service1_usage_records.csv
 
-###subscription_records.csv (optional)
+### subscription_records.csv (optional)
 
 Required columns:
 
