@@ -9,3 +9,5 @@ Know in advance those customers likely to churn with this suite of predictive an
 Our machine learning models are available through a Private Offer. Please contact info@electrifai.net for subscription service pricing.
 
 SKU: CHMIT-PS-TLC-AWS-001
+
+AWS SageMaker:  https://aws.amazon.com/marketplace/pp/prodview-eaz5276mhfy6g
